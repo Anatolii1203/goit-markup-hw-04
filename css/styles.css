@@ -34,6 +34,7 @@ body {
 
 .logo-studio {
   color: #2e2f42;
+  display: block;
 }
 
 .nav-link-ul {
