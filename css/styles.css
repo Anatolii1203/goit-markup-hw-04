@@ -253,6 +253,11 @@ body {
   fill: #f4f4fd;
 }
 
+.team_icons:hover,
+.team_icons:focus {
+  background-color: #404bbf;
+}
+
 .team {
   background-color: #ffffff;
   padding: 120px 0 120px 0;
