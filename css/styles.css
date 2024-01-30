@@ -351,6 +351,11 @@ body {
   padding: 100px 0 100px;
 }
 
+.exercise-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .link-exercise {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -388,12 +393,12 @@ body {
 
 .exercise-icons-ul {
   display: flex;
-  gap: 16px;
 }
 
 .exercise-icons-li {
   width: 40px;
   height: 40px;
+  gap: 16px;
 }
 
 .exercise-icons-a {
