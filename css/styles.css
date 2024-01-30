@@ -377,6 +377,15 @@ body {
   margin: 0;
 }
 
+.exercise-text-two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
 img {
   display: block;
 }
@@ -416,4 +425,8 @@ img {
 .portfolio {
   margin-bottom: 8px;
   margin-top: 0;
+}
+
+.exercise-text-link {
+  margin-right: 120px;
 }
