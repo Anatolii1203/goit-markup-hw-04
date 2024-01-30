@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-.main-page-nav::after {
+.nav-link-aft::after {
   width: 100%;
   position: absolute;
   left: 0;
