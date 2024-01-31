@@ -382,18 +382,6 @@ body {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 16px;
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.link-exercise:hover,
-.link-exercise:focus {
-  background-color: #31d0aa;
 }
 
 .wort-exercise {
