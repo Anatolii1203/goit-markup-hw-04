@@ -244,6 +244,7 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
+  width: 40px;
 }
 
 .team_icons_li {
