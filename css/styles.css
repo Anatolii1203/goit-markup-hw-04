@@ -64,6 +64,11 @@ body {
   padding: 0;
 }
 
+.nav-link-li {
+  position: relative;
+  color: #404bbf;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -139,8 +144,10 @@ body {
   color: #ffffff;
   max-width: 496px;
   text-align: center;
-  margin: 0 auto;
   margin-bottom: 48px;
+  letter-spacing: 1.12px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-hero-fsb {
