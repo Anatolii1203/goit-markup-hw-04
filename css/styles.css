@@ -441,6 +441,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin: 0;
 }
 
 .exercise-icons-ul {
@@ -472,6 +473,7 @@ body {
 
 .exercise-icns {
   fill: #f4f4fd;
+  list-style: none;
 }
 
 img {
