@@ -4,6 +4,15 @@ body {
   background-color: #ffffff;
 }
 
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .main-page {
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
@@ -60,8 +69,6 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-link-li {
@@ -102,8 +109,6 @@ body {
   list-style: none;
   gap: 40px;
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 .link {
@@ -213,8 +218,6 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding: 0;
 }
 
 .tasks-container {
@@ -251,7 +254,6 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding: 0;
   list-style: none;
 }
 
@@ -305,8 +307,6 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
-  margin: 0;
-  padding: 0;
 }
 
 .team-list-one {
@@ -395,7 +395,6 @@ body {
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 .exercise {
@@ -431,7 +430,6 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin: 0;
 }
 
 .exercise-text-p {
@@ -447,7 +445,6 @@ body {
   list-style-type: none;
   display: flex;
   gap: 16px;
-  margin: 0;
 }
 
 .exercise-icons-li {
