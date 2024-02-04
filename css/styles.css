@@ -448,6 +448,7 @@ body {
   display: flex;
   gap: 16px;
   margin: 0;
+  list-style: none;
 }
 
 .exercise-icons-li {
@@ -473,7 +474,6 @@ body {
 
 .exercise-icns {
   fill: #f4f4fd;
-  list-style: none;
 }
 
 img {
