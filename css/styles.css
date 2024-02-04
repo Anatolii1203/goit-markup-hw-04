@@ -441,14 +441,13 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  margin: 0;
 }
 
 .exercise-icons-ul {
+  list-style-type: none;
   display: flex;
   gap: 16px;
   margin: 0;
-  list-style: none;
 }
 
 .exercise-icons-li {
