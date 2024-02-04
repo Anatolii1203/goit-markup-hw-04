@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-.nav-link-aft {
+.nav-link-aft.nav-link {
   position: relative;
   color: #404bbf;
 }
@@ -134,7 +134,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
 }
 
 .hero-fsb {
@@ -251,20 +251,13 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
-  width: 40px;
+  padding: 0;
+  list-style: none;
 }
 
 .team_icons_li {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  gap: 24px;
   width: 40px;
-  background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  height: 40px;
 }
 
 .team_icons_a {
@@ -273,10 +266,9 @@ body {
   justify-content: center;
   background-color: #4d5ae5;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
+  height: 100%;
 }
 
 .team_icons {
@@ -361,7 +353,6 @@ body {
 
 .portfolio-container {
   width: calc((100% - 48px) / 3);
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -375,7 +366,7 @@ body {
   overflow: hidden;
 }
 
-.portfolio-img:hover .text-portfolio {
+.portfolio-container:hover .text-portfolio {
   transform: translatey(0);
 }
 
@@ -450,11 +441,13 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin: 0;
 }
 
 .exercise-icons-ul {
   display: flex;
   gap: 16px;
+  margin: 0;
 }
 
 .exercise-icons-li {
@@ -478,7 +471,7 @@ body {
   background-color: #31d0aa;
 }
 
-.exercise_icns {
+.exercise-icns {
   fill: #f4f4fd;
 }
 
