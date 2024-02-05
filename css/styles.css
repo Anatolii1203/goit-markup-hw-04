@@ -77,6 +77,7 @@ ul {
 }
 
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -181,10 +182,10 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-os:hover {
+.container-hero-fsb {
   background-color: #404bbf;
 }
-.btn-os:focus {
+.container-hero-fsb {
   background-color: #404bbf;
 }
 
@@ -227,7 +228,6 @@ ul {
 
 .icons-one {
   background-color: #f4f4fd;
-  width: 264px;
   height: 112px;
   flex-shrink: 0;
   background-color: #f4f4fd;
